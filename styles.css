@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300&display=swap'); */
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+.footer {
+    text-align: center;
+    color: white;
+    background-color:#0099ff;
+    width: 100%;
+    height: 30px;
+    
+
+}
+.busqueda{
+    display: flex;
+    height: 20px;
+    margin: 40px;
+    text-align: right;
+    
+    color: white;
+    
+}
+.busqueda__txt{
+    font-family: inherit;
+    margin-left:5px;
+    border-radius: 30px;
+    border:0;
+} 
+.busqueda__submt{
+    border-radius: 30px;
+    border: 0;
+    margin-left: 3px;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+header {
+    display: flex;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    justify-content: space-between;
+} 
+.header__img {
+     height:100px;
+     position: relative;
+     box-shadow: #fee140,6px,0;
+     
+}
+body{
+    /* height: 1200px; */
+    background-image: linear-gradient(to right, #fee140 0%,#fa709a 100%);
+}
+.nav {
+    display: flex;
+    width: 600px;
+    margin: 10px 10px 10px;
+    height: 400px;
+}
+.nav img{
+    width: 100px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.nav img:hover {
+cursor: crosshair;
+width: 200px;
+height: 400px;
+opacity: 1;
+filter: contrast(120%);
+
+}
+.masvendido{
+    margin:10px ;
+    
+}
+.wave{
+    height: 170px;
+    background-image: url(waves.svg);
+    background-position: bottom;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
+
+
